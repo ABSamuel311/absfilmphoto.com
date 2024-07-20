@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Allerta&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik+Dirt&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto Flex", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+body a:visited {
+  color: white;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 15vh;
+}
+body header #logo {
+  height: 15vh;
+  padding: 1rem;
+}
+body header ul {
+  list-style: none;
+  padding-right: 2rem;
+  display: flex;
+}
+body header ul li {
+  padding: 0 1rem;
+}
+body header ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+body .navbar {
+  display: flex;
+  justify-content: center;
+}
+body .navbar ul {
+  padding: 0px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+@media (max-width: 875px) {
+  body .navbar ul {
+    justify-content: flex-start;
+  }
+}
+body .navbar ul .selected {
+  -webkit-text-decoration: underline 2px white;
+  text-decoration: underline 2px white;
+}
+body .navbar ul li {
+  font-size: 1.25rem;
+  padding: 1rem 3rem;
+}
+body .navbar ul li a {
+  font-weight: bold;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+body .container .img-grid-section {
+  width: 95%;
+  display: grid;
+  align-items: center;
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  height: 100%;
+}
+body .container .item img {
+  width: 100%;
+}
+body .container .item video {
+  width: 100%;
+}
+@media (max-width: 720px) {
+  body .container .img-grid-section {
+    grid-template-columns: 1fr;
+  }
+}
+body footer {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body footer a {
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+body footer a :visited {
+  text-decoration: none;
+  color: white;
+}
+body .selected {
+  text-decoration: underline;
+}/*# sourceMappingURL=pages.css.map */
